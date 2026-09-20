@@ -1,6 +1,6 @@
 # Simon Mallas
 
-## Building the dynamic-lead stack for multi-agent teams
+## Building Communications and Durable Memory for multi-agent teams
 
 **Agent Letterbox turns separate coding agents into a live team.** The bell creates the team in the moment; **enveloped letters** give that team durable memory.
 
