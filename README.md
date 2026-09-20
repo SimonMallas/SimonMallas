@@ -10,17 +10,14 @@ This is **durable memory without a memory system**: no hidden database or propri
 
 ## Start here
 
-- **[Agent Letterbox for cmux](https://github.com/SimonMallas/agent-letterbox-cmux)** — the primary entry point for a dynamic agent team in cmux.
-- **[Agent Letter Bridge](https://github.com/SimonMallas/agent-letter-bridge)** — extends that durable letter system to your phone while keeping the letter, not the chat service, as the source of truth.
+**Choose the terminal your team already uses.** Agent Letterbox is one shared protocol and durable letter store with four native doorbell adapters—not four separate products:
 
-## One Letterbox, four terminal adapters
+- **[cmux](https://github.com/SimonMallas/agent-letterbox-cmux)** — primary entry point
+- **[tmux](https://github.com/SimonMallas/agent-letterbox-tmux)**
+- **[Herdr](https://github.com/SimonMallas/agent-letterbox-herdr)**
+- **[Zellij](https://github.com/SimonMallas/agent-letterbox-zellij)**
 
-Agent Letterbox is one shared protocol and durable letter store. cmux, tmux, Herdr, and Zellij are native doorbell adapters—not four separate products. Pick the terminal your team already uses:
-
-- [cmux](https://github.com/SimonMallas/agent-letterbox-cmux) — primary entry point
-- [tmux](https://github.com/SimonMallas/agent-letterbox-tmux)
-- [Herdr](https://github.com/SimonMallas/agent-letterbox-herdr)
-- [Zellij](https://github.com/SimonMallas/agent-letterbox-zellij)
+- **[Agent Letter Bridge](https://github.com/SimonMallas/agent-letter-bridge)** — extend the durable letter system to your phone while keeping the letter, not the chat service, as the source of truth.
 
 ## Other work
 
