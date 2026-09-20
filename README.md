@@ -1,17 +1,21 @@
 # Simon Mallas
 
-I build local-first tools for reliable AI-agent collaboration: durable handoffs, visible coordination, and practical terminal workflows.
+## Building the dynamic-lead stack for multi-agent teams
+
+**Agent Letterbox turns separate coding agents into a live team.** The bell creates the team in the moment; **enveloped letters** give that team durable memory.
+
+A doorbell gets the right agent's attention. The actual handoff, decision, ACK, and result live as plain Markdown on disk with sender, recipient, time, thread, and lifecycle context. The message survives scrollback, compaction, restarts, and changing terminals.
+
+This is **durable memory without a memory system**: no hidden database or proprietary brain required. The record remains inspectable, searchable, and available to whatever memory or orchestration layer the team chooses later.
 
 ## Start here
 
-- **[Agent Letterbox for cmux](https://github.com/SimonMallas/agent-letterbox-cmux)** — durable agent-to-agent mail and live terminal doorbells for teams working in cmux.
-- **[Agent Letter Bridge](https://github.com/SimonMallas/agent-letter-bridge)** — brings durable agent mail to your phone without making the chat service the source of truth.
+- **[Agent Letterbox for cmux](https://github.com/SimonMallas/agent-letterbox-cmux)** — the primary entry point for a dynamic agent team in cmux.
+- **[Agent Letter Bridge](https://github.com/SimonMallas/agent-letter-bridge)** — extends that durable letter system to your phone while keeping the letter, not the chat service, as the source of truth.
 
-## The Agent Letterbox family
+## One Letterbox, four terminal adapters
 
-Agent Letterbox is one shared durable letter store and protocol with native terminal adapters. The terminal only changes how an agent is notified; the team record stays in plain Markdown files on disk.
-
-Choose the adapter for the terminal you already use:
+Agent Letterbox is one shared protocol and durable letter store. cmux, tmux, Herdr, and Zellij are native doorbell adapters—not four separate products. Pick the terminal your team already uses:
 
 - [cmux](https://github.com/SimonMallas/agent-letterbox-cmux) — primary entry point
 - [tmux](https://github.com/SimonMallas/agent-letterbox-tmux)
@@ -24,4 +28,4 @@ Choose the adapter for the terminal you already use:
 
 ---
 
-Each project README starts with the problem it solves and a safe manual install path. Inspect the source, release notes, and security guidance before using automation on your own machine.
+Each project has a safe manual install path and security guidance. Inspect the source, release notes, and automation before using it on your machine.
