@@ -22,6 +22,7 @@ This is **durable memory without a memory system**: no hidden database or propri
 ## Other work
 
 - **[Awesome cmux](https://github.com/SimonMallas/awesome-cmux)** — a curated guide to the cmux ecosystem for AI coding agents.
+- **[The Case for Vectorless Accountability](https://github.com/SimonMallas/vectorless-accountability)** — the QEM reference article: why accountability questions (answered? never happened? who said it?) need exact envelope memory, not a vector store.
 
 ---
 
